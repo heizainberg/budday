@@ -1,0 +1,14 @@
+/* styles.css */
+
+body {
+    background-color: lightpink;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+canvas {
+    border: 1px solid black;
+}

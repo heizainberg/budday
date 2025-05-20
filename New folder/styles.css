@@ -1,0 +1,30 @@
+/* styles.css */
+
+body {
+    background-color: lightpink;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;  /* Add this line to center the button vertically */
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+button {
+    margin-top: 20px;  /* Add some space between the canvas and the button */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
